@@ -102,6 +102,34 @@
         justify-content: center;
     }
     
+    .footer {
+        background-color: rgb(49, 45, 45);
+        padding: 70px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .contacts {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #face {
+        color: blue;
+    }
+    
+    #insta {
+        color: crimson;
+    }
+    
+    #link {
+        color: blue;
+    }
+    
+    #twit {
+        color: cornflowerblue;
+    }
+    
     @media only screen and(max-width: 600px) {
         body {
             overflow-x: hidden;
