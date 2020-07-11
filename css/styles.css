@@ -1,92 +1,109 @@
-* {
-    padding: 0;
-    margin: 0;
-    color: white;
-    overflow-x: hidden;
-    font-size: 18px;
-}
-
-body {
-    padding: 0;
-    margin: 0;
-    background-color: black;
-}
-
-.navbar-brand,
-li>a {
-    color: white !important;
-}
-
-.landing-page {
-    background-image: url(../images/showcase.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-}
-
-.landing-page>h1 {
-    font-size: 50px;
-    text-align: center;
-}
-
-.landing-page>p {
-    font-size: 35px;
-    margin-top: 20px;
-    text-align: center;
-}
-
-#about {
-    text-align: center;
-    background-color: black;
-    padding-top: 30px;
-}
-
-.items>p {
-    padding: 30px;
-    font-size: 18px;
-}
-
-.items>img {
-    height: 300px;
-    width: 200px;
-}
-
-.items {
-    padding: 40px;
-}
-
-#experience {
-    text-align: center;
-    padding-top: 100px;
-}
-
-#projects {
-    padding: 70px;
-    text-align: center;
-}
-
-#picasotech {
-    display: flex;
-    justify-content: center;
-}
-
-#picasotech>p {
-    padding: 30px;
-}
-
-#picasotech>img {
-    height: 300px;
-    width: 500px;
-    padding-bottom: 40px;
-}
-
-@media only screen and(max-width: 600px) {
-    body {
+    * {
+        padding: 0;
+        margin: 0;
+        color: white;
         overflow-x: hidden;
+        font-size: 18px;
     }
-}
+    
+    body {
+        padding: 0;
+        margin: 0;
+        background-color: black;
+    }
+    
+    .navbar-brand,
+    li>a {
+        color: white !important;
+    }
+    
+    .landing-page {
+        background-image: url(../images/showcase.jpg);
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        flex-direction: column;
+    }
+    
+    .landing-page>h1 {
+        font-size: 50px;
+        text-align: center;
+    }
+    
+    .landing-page>p {
+        font-size: 35px;
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    #about {
+        text-align: center;
+        background-color: black;
+        padding-top: 30px;
+    }
+    
+    .items>p {
+        padding: 30px;
+        font-size: 18px;
+    }
+    
+    .items>img {
+        height: 300px;
+        width: 200px;
+    }
+    
+    .items {
+        padding: 40px;
+    }
+    
+    #experience {
+        text-align: center;
+        padding-top: 100px;
+    }
+    
+    #projects {
+        padding: 70px;
+        text-align: center;
+    }
+    
+    #picasotech {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #picasotech>p {
+        padding: 30px;
+    }
+    
+    #picasotech>img,
+    #tours>img,
+    #photography>img {
+        height: 300px;
+        width: 500px;
+        padding-bottom: 40px;
+    }
+    
+    #tours {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #tours>p,
+    #photography>p {
+        padding: 50px;
+    }
+    
+    #photography {
+        display: flex;
+        justify-content: center;
+    }
+    
+    @media only screen and(max-width: 600px) {
+        body {
+            overflow-x: hidden;
+        }
+    }
