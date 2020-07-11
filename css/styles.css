@@ -102,6 +102,10 @@
         justify-content: center;
     }
     
+    #boda {
+        display: flex;
+    }
+    
     .footer {
         background-color: rgb(49, 45, 45);
         padding: 70px;
