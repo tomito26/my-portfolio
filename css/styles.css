@@ -3,6 +3,7 @@
     margin: 0;
     color: white;
     overflow-x: hidden;
+    font-size: 18px;
 }
 
 body {
@@ -50,7 +51,7 @@ li>a {
     font-size: 18px;
 }
 
-img {
+.items>img {
     height: 300px;
     width: 200px;
 }
@@ -62,6 +63,26 @@ img {
 #experience {
     text-align: center;
     padding-top: 100px;
+}
+
+#projects {
+    padding: 70px;
+    text-align: center;
+}
+
+#picasotech {
+    display: flex;
+    justify-content: center;
+}
+
+#picasotech>p {
+    padding: 30px;
+}
+
+#picasotech>img {
+    height: 300px;
+    width: 500px;
+    padding-bottom: 40px;
 }
 
 @media only screen and(max-width: 600px) {
