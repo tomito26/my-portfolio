@@ -30,13 +30,13 @@
         text-align: center;
     }
     
-    .page>h1 {
+    #page>h1 {
         font-size: 50px;
         padding: 40px;
         overflow-y: hidden;
     }
     
-    .page>p {
+    #page>p {
         font-size: 35px;
     }
     
@@ -98,6 +98,7 @@
         padding: 50px;
     }
     
+    #picaso,
     #safari {
         padding-left: 50px;
     }
@@ -129,6 +130,10 @@
         color: white;
     }
     
+    #projects>p {
+        padding: 50px;
+    }
+    
     .footer {
         background-color: rgb(49, 45, 45);
         padding: 70x;
@@ -157,19 +162,19 @@
         color: cornflowerblue;
     }
     
-    @media only screen and(max-width: 600px) {
+    @media only screen and(max-width: 480px) {
         body {
             overflow-x: hidden;
         }
         .page>h1 {
-            font-size: 20px;
+            font-size: 25px;
             overflow-y: hidden;
         }
         .page>p {
-            font-size: 19px;
+            font-size: 20px;
         }
-        #picasotech {
-            display: flex;
-            flex-direction: column;
+        #picasotech>img,
+        #tours>img {
+            width: 100vh;
         }
     }
