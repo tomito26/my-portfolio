@@ -30,13 +30,13 @@
         text-align: center;
     }
     
-    #landing-page>h1 {
+    .page>h1 {
         font-size: 50px;
         padding: 40px;
         overflow-y: hidden;
     }
     
-    #landing-page>p {
+    .page>p {
         font-size: 35px;
     }
     
@@ -75,7 +75,7 @@
         justify-content: center;
     }
     
-    #picasotech>p {
+    #tech {
         padding: 30px;
     }
     
@@ -94,9 +94,12 @@
         justify-content: center;
     }
     
-    #tours>p,
-    #photography>p {
+    #picaso {
         padding: 50px;
+    }
+    
+    #safari {
+        padding-left: 50px;
     }
     
     #photography {
@@ -104,8 +107,26 @@
         justify-content: center;
     }
     
-    #boda>p {
-        padding: 20px 50px;
+    #bodaboda {
+        padding-left: 50px;
+    }
+    
+    #view {
+        padding: 8px 9px;
+        border-radius: 10px;
+    }
+    
+    #view>a {
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    #view:hover {
+        background-color: blue;
+    }
+    
+    #view>a:hover {
+        color: white;
     }
     
     .footer {
@@ -139,5 +160,16 @@
     @media only screen and(max-width: 600px) {
         body {
             overflow-x: hidden;
+        }
+        .page>h1 {
+            font-size: 20px;
+            overflow-y: hidden;
+        }
+        .page>p {
+            font-size: 19px;
+        }
+        #picasotech {
+            display: flex;
+            flex-direction: column;
         }
     }
