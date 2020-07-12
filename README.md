@@ -1,5 +1,5 @@
 # Personal Portfolio
-This website entails all my profile information ,the projects  i  have done  my contacts and social through which people can reach me and work together either as collaborator or service  provider. Here is the [link](https://tomito26.github.io/my-portfolio/) to the website.
+This website entails all my profile information ,the projects  i  have done  my contacts and social media through which people can reach me and work together either as collaborator or service  provider. Here is the [link](https://tomito26.github.io/my-portfolio/) to the website.
 
 ![Screenshot](Screenshot.png)
 ## Author
