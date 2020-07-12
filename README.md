@@ -5,7 +5,7 @@ This website entails all my profile information ,the projects  i  have done  my 
 ## Author
 * Thomas Khaemba
 ## How To Access It
-You can access it by cloning  the [repo](https://github.com/tomito26/my-portfolio.git) and following the iinstructions below
+You can access it by cloning  the [repo](https://github.com/tomito26/my-portfolio.git) and following the instructions below
 ```
 $ git clone link
 $ cd-directory-name
