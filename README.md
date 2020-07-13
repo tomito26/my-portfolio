@@ -16,7 +16,7 @@ $ code .
 You can contribute by forking the project and then cloning it into your local machine by following the above steps
 
 ## Known Bugs
-The only challenge is that the website can only be accessed on the  laptop or desktop
+The website is not responsive to small devices
 
 ## Technologies Used
 * HTML
